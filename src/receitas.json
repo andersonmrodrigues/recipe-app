@@ -1,0 +1,83 @@
+{
+    "receitas": [
+        {
+            "id": 1,
+            "receita": "Barrinhas de cereal",
+            "ingredientes": "1 xícara de nozes, 1 xícara de frutas secas, 1 xícara de tâmaras secas sem caroço",
+            "ingredientesBase": {
+                "0": "3",
+                "1": "Nozes",
+                "2": "Frutas secas",
+                "3": "Tamaras"
+            },
+            "modoPreparo": "Bata todos os ingredientes em um processador por cerca de dois minutos, até que formem uma massa. Embrulhe a mistura em um papel filme e leve à geladeira por algumas horas até sentir que a massa está dura. Corte em formato de barras e conserve na geladeira.",
+            "link_imagem": "https://s3-sa-east-1.amazonaws.com/delicitasaws/wp-content/uploads/20161019172921/receita-de-barrinha-de-cereal.jpg"
+        },
+        {
+            "id": 2,
+            "receita": "Mousse de limão",
+            "ingredientes": "1 lata de leite condensado, 1 lata de creme de leite, 1/2 xícara de limão espremido",
+            "ingredientesBase": {
+                "0": "3",
+                "1": "Leite condensado",
+                "2": "Creme de leite",
+                "3": "Limao"
+            },
+            "modoPreparo": "Coloque o creme de leite e o leite condensado no liquidificador, bata um pouco e acrescente o suco de limão aos poucos. Quando a massa ficar consistente, coloque em um recipiente de vidro e leva à geladeira.",
+            "link_imagem": "https://naminhapanela.com/wp-content/uploads/2012/01/mousse-de-lim%C3%A3o-com-ganashe-de-chocolate2-1200x900.jpg"
+        },
+        {
+            "id": 3,
+            "receita": "Sorvete caseiro",
+            "ingredientes": "1 lata de leite condensado, 1 lata de creme de leite, 1 pacote de gelatina do seu sabor preferido",
+            "ingredientesBase": {
+                "0": "3",
+                "1": "Leite condensado",
+                "2": "Creme de leite",
+                "3": "Gelatina"
+            },
+            "modoPreparo": "Prepare a gelatina normalmente (sem levar à geladeira) e enquanto ela ainda estiver quente bata no liquidificador junto com o creme de leite e o leite condensado. Coloque para congelar em um refratário com tampa, bata na batedeira (enquanto estiver congelado) e leve ao freezer novamente.",
+            "link_imagem": "https://portal-amb-imgs.clubedaana.com.br/2018/11/sorvete-milagre-apenas-2-ingredientes-1920x1080.jpg"
+        },
+        {
+            "id": 4,
+            "receita": "Pão de queijo",
+            "ingredientes": "1 caixa de creme de leite, 1 copo de queijo parmesão ralado, 1 copo de polvilho doce",
+            "ingredientesBase": {
+                "0": "3",
+                "1": "Creme de leite",
+                "2": "Queijo parmesao",
+                "3": "Polvilho doce"
+            },
+            "modoPreparo": "Pré aqueça o forno enquanto amassa todos os ingredientes até eles formarem uma massa (que não grude nas mãos), faça bolinhas e coloque para assar em uma forma untada.",
+            "link_imagem": "https://2.bp.blogspot.com/-U4ic7d-x3Ds/W3MEYSNxiwI/AAAAAAAANWE/t05Cwzb_HTcA7p2R5LELods-AbIOWTVXwCLcBGAs/s1600/p%25C3%25A3o-de-queijo-f%25C3%25A1cil-6.JPG"
+        },
+        {
+            "id": 5,
+            "receita": "Bolo para café da tarde",
+            "ingredientes": "3 ovos, 2/3 de xícara de farinha com fermento, 1/2 xícara de açúcar refinado",
+            "ingredientesBase": {
+                "0": "3",
+                "1": "Ovos",
+                "2": "Farinha",
+                "3": "Fermento"
+            },
+            "modoPreparo": "Pré aqueça o forno a 190ºC. Em uma tigela, bata os ovos e o açúcar até que formem um creme, depois misture a farinha. Coloque a massa em uma forma untada e asse.",
+            "link_imagem": "https://2.bp.blogspot.com/-hVIGmNjU8NA/WDY3K8clwWI/AAAAAAAAAho/5DPh8aQf3m0Xe3QoYHgYeUJCfvS5GQYDQCLcB/s1600/bolo-fuba-liquidificador.jpg"
+        },
+        {
+            "id": 6,
+            "receita": "Massa de pizza",
+            "ingredientes": "1 xícara de farinha pronta com fermento, 1 xícara de iogurte Grego ou natural",
+            
+            "ingredientesBase": {
+                "0": "3",
+                "1": "Farinha",
+                "2": "Iogurte",
+                "3": "Fermento"
+            },
+            "modoPreparo": "Em uma tigela, misture a farinha e o iogurte; misture a massa até formar uma bola. Coloque a massa em uma superfície enfarinhada e deixe sovar por 5-8 minutos. Com um rolo de macarrão, deixe a massa em formato de pizza e depois adicione as coberturas. Pré-aqueça o forno. Coloque a pizza no forno em temperatura máxima por 12 minutos.",
+            "link_imagem": "https://img.itdg.com.br/images/recipes/000/000/324/323149/323149_original.jpg"
+        }
+    ]
+}
