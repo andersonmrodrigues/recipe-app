@@ -1,41 +1,41 @@
 import React, { Component } from 'react';
-import data from '../../receitas.json';
 import './styles.css';
 import { Link } from 'react-router-dom';
 
 export default class RecipeView extends Component {
     state = {
-        receita: {},
+        recipe: {},
         ingredients: {},
         steps: {},
     }
     async componentDidMount() {
         const { id } = this.props.match.params;
-        let [receita] = data.receitas.filter((receita) => {
-            return receita.id === parseInt(id);
+        const recipes = JSON.parse(localStorage.getItem("recipes"));
+        let [recipe] = recipes.filter((recipe) => {
+            return recipe.id === parseInt(id);
         });
         let ingredients = [];
         let steps = [];
-        if (receita) {
-            ingredients = receita.ingredientes.split(',');
-            steps = receita.modoPreparo.split(',');
+        if (recipe) {
+            ingredients = recipe.ingredientes.split(',');
+            steps = recipe.modoPreparo.split(',');
         }
         this.setState({
-            receita,
+            recipe,
             ingredients,
             steps,
         })
     }
 
     render() {
-        const receita = this.state.receita;
+        const recipe = this.state.recipe;
         const ingredients = Array.from(this.state.ingredients);
         const steps = Array.from(this.state.steps);
         return (
             <div className="recipe-info">
                 <Link to="/">Back</Link>
-                <h1 className="text-center">{receita.receita}</h1>
-                <img src={receita.link_imagem} alt="" />
+                <h1 className="text-center">{recipe.receita}</h1>
+                <img src={recipe.link_imagem} alt="" />
                 <hr />
                 <h3>Ingredients:</h3>
                 <hr />

@@ -1,20 +1,17 @@
 import React from 'react';
 import './styles.css';
-import data from '../../receitas.json';
-import img from '../../assets/platter-2009590_1920.jpg'
 import { useHistory } from 'react-router-dom';
 
 export default function Recipe() {
-    const receitas = data.receitas;
+    const receitas = JSON.parse(localStorage.getItem("recipes"));
     const history = useHistory();
-    console.log(receitas);
 
     function handleView(id) {
         history.push(`/recipe/${id}`);
     }
 
     function handleEdit(id) {
-        alert('TO DO');
+        history.push(`/recipe/${id}/edit`)
     }
 
     return (

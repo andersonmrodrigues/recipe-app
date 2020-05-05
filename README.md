@@ -38,7 +38,7 @@ expand on this to maintain recipes in a file or database.
 recipe title, meal type (breakfast, lunch, supper, or snack), number of people
 it serves, its difficulty level (beginner, intermediate, advanced), the list
 of ingredients (including their amounts), and the preparation steps.
--   [ ] User click a new recipe title to replace the current card with a new
+-   [x] User click a new recipe title to replace the current card with a new
 recipe.
 
 ## Bonus features
